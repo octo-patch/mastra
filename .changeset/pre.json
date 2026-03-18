@@ -121,6 +121,8 @@
     "@mastra/s3": "0.3.0"
   },
   "changesets": [
+    "automated-provider-registry-20260318-063530",
+    "fix-langsmith-flush",
     "green-birds-knock"
   ]
 }

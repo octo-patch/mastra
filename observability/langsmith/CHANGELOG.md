@@ -1,5 +1,14 @@
 # @mastra/langsmith
 
+## 1.1.6-alpha.0
+
+### Patch Changes
+
+- Add `_flush()` override to drain the LangSmith SDK's internal batch queue via `client.awaitPendingTraceBatches()`. Previously, flushing the exporter was a no-op, so queued trace data could be lost in serverless and durable execution environments. ([#13720](https://github.com/mastra-ai/mastra/pull/13720))
+
+- Updated dependencies [[`cb611a1`](https://github.com/mastra-ai/mastra/commit/cb611a1e89a4f4cf74c97b57e0c27bb56f2eceb5)]:
+  - @mastra/core@1.14.1-alpha.0
+
 ## 1.1.5
 
 ### Patch Changes

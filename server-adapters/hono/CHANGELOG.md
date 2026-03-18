@@ -1,5 +1,13 @@
 # @mastra/hono
 
+## 1.2.6-alpha.0
+
+### Patch Changes
+
+- Updated dependencies [[`cb611a1`](https://github.com/mastra-ai/mastra/commit/cb611a1e89a4f4cf74c97b57e0c27bb56f2eceb5)]:
+  - @mastra/core@1.14.1-alpha.0
+  - @mastra/server@1.14.1-alpha.0
+
 ## 1.2.5
 
 ### Patch Changes
